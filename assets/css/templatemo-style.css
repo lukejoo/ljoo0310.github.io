@@ -532,6 +532,7 @@ section.my-work .section-heading {
     position: relative;
     width: 48%;
     margin: 1%;
+    overflow: hidden;
     /*border-bottom: 2px solid rgba(250,250,250,0.1);*/
     /*padding-bottom: 30px;*/
     /*margin-bottom: 30px;*/
@@ -547,6 +548,26 @@ section.my-work .section-heading {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    vertical-align: middle;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .lazyload {
@@ -579,7 +600,7 @@ figure.snip1321 figcaption {
   z-index: 1;
 }
 figure.snip1321 h4 {
-    margin-top: 15px;
+  margin-top: 15px;
   margin-bottom: 5px;
   color: #232323;
 }
@@ -638,7 +659,7 @@ figure.snip1321:hover:after,
 figure.snip1321.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* Contact Me */
