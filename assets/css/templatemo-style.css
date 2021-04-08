@@ -228,23 +228,25 @@ html {
 
 .menu {
     left: 10%;
-  -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
-  -webkit-overflow-scrolling: touch;
-  background-color: #2db400;/*#2db400;*/
-  box-sizing: border-box;
-  height: 100vh;  
-  max-height: 100vh !important;
-  max-width: 80vw !important;
-  min-width: 45px !important;
-  outline: none;
-  overflow-x: hidden !important;
-  overflow-y: auto !important;
-  padding: 0;
-  position: fixed !important;
-  top: calc(0px);  
-  width: 20%;
-  will-change: transform;
-  z-index: 9999 !important;
+    -webkit-transition: 233ms cubic-bezier(0, 0, 0.21, 1);
+    transition: 233ms cubic-bezier(0, 0, 0.21, 1);
+    /* -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1); */
+    -webkit-overflow-scrolling: touch;
+    background-color: #2db400;/*#2db400;*/
+    box-sizing: border-box;
+    height: 100vh;  
+    max-height: 100vh !important;
+    max-width: 80vw !important;
+    min-width: 45px !important;
+    outline: none;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    padding: 0;
+    position: fixed !important;
+    top: calc(0px);  
+    width: 20%;
+    will-change: transform;
+    z-index: 9999 !important;
 }
 
 .menu-toggle {
@@ -336,8 +338,8 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
-    color: #2db400;
+    background-color: rgba(250, 250, 250, 0.2);
+    color: #fff;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -566,6 +568,10 @@ section.my-work .section-heading {
     padding: 40px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+}
+
+.isotope-item-detail img {
+    margin-bottom: 20px;
 }
 
 .isotope-item-detail h4 {
