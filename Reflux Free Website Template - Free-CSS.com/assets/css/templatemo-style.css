@@ -1,3 +1,11 @@
+/*
+
+Reflux Template
+
+https://templatemo.com/tm-531-reflux
+
+*/
+
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
@@ -5,11 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: 
-    linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)),
-        url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/page-bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,11 +43,6 @@ p {
     font-size: 16px;
     line-height: 24px;
     color: #fff;
-    word-break: keep-all;
-}
-
-h3 {
-    word-break: keep-all;
 }
 
 h4 {
@@ -127,7 +126,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #2db400;
+    color: #8c363e;
 }
 
 /* Sidebar Menu */
@@ -148,18 +147,12 @@ html {
 }
 
 .menu .author-content h4 {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .menu .author-content span {
-    font-size: 15px;
-    font-style: italic;
-    color: #fff;
-}
-
-.menu .author-content h5 {
-    margin-top: 10px;
     font-size: 13px;
+    font-style: italic;
     color: #fff;
 }
 
@@ -185,7 +178,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #2db400;/*#2db400;*/
+    color: #a43f49;
 }
 
 .menu .copyright-text {
@@ -230,7 +223,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #2db400;/*#2db400;*/
+  background-color: #a43f49;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -262,7 +255,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #2db400;
+    color: #a43f49;
     background-color: #fff;
     width: 60px;
     height: 60px;
@@ -278,7 +271,7 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #2db400;
+    color: #a43f49;
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -296,14 +289,14 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: fit-content; /*100vh;*/
+    min-height: 100vh;
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 
 .section-heading {
     text-align: center;
-    padding-top: 80px;
+    padding: 80px 45px;
 }
 
 .section-heading h2 {
@@ -312,14 +305,10 @@ html {
     color: #fff;
 }
 
-.section-heading h3 {
-    padding-top: 40px;
-}
-
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #2db400;
+    background-color: #a43f49;
     margin: 10px auto;
 }
 
@@ -337,7 +326,7 @@ html {
     display: inline-block;
     padding: 12px 20px;
     background-color: #fff;
-    color: #2db400;
+    color: #a43f49;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -346,7 +335,7 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #2db400;
+    background-color: #a43f49;
     color: #fff;
 }
 
@@ -354,7 +343,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #2db400;
+    color: #a43f49;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -367,7 +356,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #2db400;
+    background-color: #a43f49;
     color: #fff;
 }
 
@@ -377,8 +366,6 @@ button:hover {
 .right-image-post {
     margin-top: 60px;
     padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 60px;
     border-top: 2px solid rgba(250, 250, 250, 0.1);
 }
 
@@ -448,36 +435,36 @@ button:hover {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/icon-python.png);
+    background-image: url(../images/first-white-icon.png);
 }
 
-/*.service-item:hover .first-service-icon {
+.service-item:hover .first-service-icon {
     background-image: url(../images/first-main-icon.png);
-}*/
+}
 
 .service-item .second-service-icon {
-    background-image: url(../images/icon-java.png);
+    background-image: url(../images/second-white-icon.png);
 }
 
-/*.service-item:hover .second-service-icon {
+.service-item:hover .second-service-icon {
     background-image: url(../images/second-main-icon.png);
-}*/
+}
 
 .service-item .third-service-icon {
-    background-image: url(../images/icon-sql.png);
+    background-image: url(../images/third-white-icon.png);
 }
 
-/*.service-item:hover .third-service-icon {
+.service-item:hover .third-service-icon {
     background-image: url(../images/third-main-icon.png);
-}*/
+}
 
 .service-item .fourth-service-icon {
-    background-image: url(../images/icon-english.png);
+    background-image: url(../images/fourth-white-icon.png);
 }
 
-/*.service-item:hover .fourth-service-icon {
+.service-item:hover .fourth-service-icon {
     background-image: url(../images/fourth-main-icon.png);
-}*/
+}
 
 
 /* My Work */
@@ -510,8 +497,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #2db400;
-    border-bottom: 2px solid #2db400;
+    color: #a43f49;
+    border-bottom: 2px solid #a43f49;
 }
 
 .isotope-box {
@@ -537,14 +524,9 @@ section.my-work .section-heading {
     position: relative;
     width: 48%;
     margin: 1%;
-    overflow: hidden;
-    /*border-bottom: 2px solid rgba(250,250,250,0.1);*/
-    /*padding-bottom: 30px;*/
-    /*margin-bottom: 30px;*/
-}
-
-.isotope-item h3 {
-    text-align: center;
+    border-bottom: 2px solid rgba(250,250,250,0.1);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .isotope-item img {
@@ -553,95 +535,6 @@ section.my-work .section-heading {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    vertical-align: middle;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.isotope-item-detail {
-    margin-bottom: 10px;
-    padding: 40px;
-    background-color: rgba(250, 250, 250, 0.1);
-    transition: all 0.5s;
-}
-
-.isotope-item-detail h4 {
-    transition: all 0.5s;
-}
-
-.isotope-item-detail p {
-    transition: all 0.5s;
-}
-
-.isotope-item-detail:hover {
-    background-color: rgba(45, 180, 0, 0.3);
-}
-
-/* .isotope-item-detail:hover h4 {
-    color: #1e1e1e;
-}
-
-.isotope-item-detail:hover p {
-    color: #4a4a4a;
-} */
-
-.isotope-item-detail .service-icon {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    margin-bottom: 30px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-}
-
-.isotope-item-detail .first-service-icon {
-    background-image: url(../images/icon-python.png);
-}
-
-/*.isotope-item-detail:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
-}*/
-
-.isotope-item-detail .second-service-icon {
-    background-image: url(../images/icon-java.png);
-}
-
-/*.isotope-item-detail:hover .second-service-icon {
-    background-image: url(../images/second-main-icon.png);
-}*/
-
-.isotope-item-detail .third-service-icon {
-    background-image: url(../images/icon-sql.png);
-}
-
-/*.isotope-item-detail:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
-}*/
-
-.isotope-item-detail .fourth-service-icon {
-    background-image: url(../images/icon-english.png);
-}
-
-/*.isotope-item-detail:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
-}*/
-
-.overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
 }
 
 .lazyload {
@@ -674,7 +567,7 @@ figure.snip1321 figcaption {
   z-index: 1;
 }
 figure.snip1321 h4 {
-  margin-top: 15px;
+    margin-top: 15px;
   margin-bottom: 5px;
   color: #232323;
 }
@@ -687,7 +580,7 @@ figure.snip1321 span {
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #2db400;
+  background-color: #a43f49;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -733,8 +626,9 @@ figure.snip1321:hover:after,
 figure.snip1321.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
-  opacity: 0.8;
+  opacity: 0.9;
 }
+
 
 /* Contact Me */
 
