@@ -113,8 +113,8 @@ html {
 }
 
 .main-nav li a {
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -144,7 +144,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 40px 0px 40px 0px;
 }
 
 .menu .author-content h4 {
@@ -232,7 +232,7 @@ html {
     transition: 233ms cubic-bezier(0, 0, 0.21, 1);
     /* -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1); */
     -webkit-overflow-scrolling: touch;
-    background-color: #2db400;/*#2db400;*/
+    background-color: #2db400;
     box-sizing: border-box;
     height: 100vh;  
     max-height: 100vh !important;
