@@ -482,9 +482,9 @@ button:hover {
 }*/
 
 
-/* My Work */
+/* Projects/Activities */
 
-section.my-work .section-heading {
+section.projects-activities .section-heading {
     text-align: center;
     padding: 80px 45px 50px 45px;
 }
@@ -745,8 +745,8 @@ figure.snip1321.hover:after {
 /* Education */
 
 #education {
-    border-bottom: none;
-    min-height: 100vh;
+    /* border-bottom: none; */
+    /* min-height: 100vh; */
 }
 
 #education .education-header {
@@ -954,6 +954,12 @@ figure.snip1321.hover:after {
 
 #education {
     text-align: center;
+}
+
+/* ACTIVITIES */
+#activities {
+    border-bottom: none;
+    min-height: 100vh;
 }
 
 @media screen and (max-width: 1680px) {
