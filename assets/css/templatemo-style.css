@@ -113,8 +113,8 @@ html {
 }
 
 .main-nav li a {
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -876,7 +876,7 @@ section.contact-me {
     }
 
     .menu .image img {
-        width: 120px;
+        width: 60;
         height: 120px;
     }
 
