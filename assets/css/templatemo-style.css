@@ -744,10 +744,10 @@ figure.snip1321.hover:after {
 
 /* Education */
 
-#education {
+/* #education { */
     /* border-bottom: none; */
     /* min-height: 100vh; */
-}
+/* } */
 
 #education .education-header {
 	text-align: center;
