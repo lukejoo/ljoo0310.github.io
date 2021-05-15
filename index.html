@@ -188,6 +188,24 @@
               <div class="isotope-box">
                 <div class="isotope-item" data-type="ML/DL">
                   <div class="isotope-item-detail">
+                    <h4>Shopee - Detecting Product Similarity</h4>
+                    <p>
+                      온라인 쇼핑몰 상품들의 상품명과 이미지를 활용하여 동일 상품들을 색출해내는 딥 러닝 모델입니다.
+                      상품명 텍스트 데이터를 tf-idf 벡터화하고 이미지 데이터를 EfficientNetB0 전이학습 모델로 
+                      embedding을 추출해서 RAPIDS 라이브러리로 훈련 시간 단축을 위해 GPU를 활용한 KNN 훈련을 통해서 
+                      거리가 가까운 상품들끼리 동일 상품으로 분류했습니다.
+                    </p>
+                    <img src="assets/images/isotope-item-detail-shopee.png"/>
+                    <div class="white-button">
+                      <a href="https://www.kaggle.com/yehoonjoo/shopee-detecting-product-similarity" target='_blank'>
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="isotope-item" data-type="ML/DL">
+                  <div class="isotope-item-detail">
                     <h4>Mask or No Mask?</h4>
                     <p>
                       마스크를 착용, 미착용한 사람들을 구분해내는 분류 딥 러닝 모델입니다. 
